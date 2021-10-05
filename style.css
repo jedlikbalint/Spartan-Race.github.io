@@ -6,4 +6,9 @@ font-size: 40px;
 ul li{list-style-type: square;
 font-family: 'Times New Roman', Times, serif;
 font-size: 22px;}
-h2{font-weight: 1000px;}
+th{
+    border: solid 1px
+}
+#logo{
+text-align: center;
+}
