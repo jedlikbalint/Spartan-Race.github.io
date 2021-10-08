@@ -6,9 +6,12 @@ font-size: 40px;
 ul li{list-style-type: square;
 font-family: 'Times New Roman', Times, serif;
 font-size: 22px;}
-th{
-    border: solid 1px
+#menü {
+border: black solid 1px;
 }
-#logo{
-text-align: center;
+th{
+    border: solid 1px;
+}
+table{
+    background-color: mintcream;
 }
