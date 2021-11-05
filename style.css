@@ -1,16 +1,41 @@
+.container{
+    max-width: 1024px;
+    background-color: rgb(39, 38, 38);
+    margin: 0 auto;
+    padding: 8px;
+    text-align: left;
+    min-height: calc(100vh )
+}
+.menu{
+    border: solid black 1px;
+    background-color: turquoise;
+    width: calc(25% - 2px);
+    float: right;
+    text-align: center;
+    height: 30px;
+}
+.menu a{
+    color: navy;
+    text-decoration: none;
+    font-size: 20px;
+}
 h1{text-decoration: underline;
 text-align: center;
-font-size: 40px;
+font-size: 35px;
 color: white;
+margin: 10px auto;
 
 }
 h2{
     text-align: center;  
     color: white;
+    margin: 0px auto;
+    
 }
 h3{
     text-align: left;
     color: white; 
+    margin: 10px auto;
 }
 p{
     color: white;
@@ -31,41 +56,8 @@ table{
     background-color: turquoise;
     margin: 0px 5px
 }
-.container{
-    max-width: 1024px;
-    background-color: rgb(39, 38, 38);
-    margin: 0 auto;
-    padding: 8px;
-    text-align: left;
-    min-height: calc(100vh - 50px)
-}
-.menu{
-    border: solid black 1px;
-    background-color: turquoise;
-    width: calc(25% - 2px);
-    float: right;
-    text-align: center;
-    height: 30px;
-}
-.menu a{
-    color: navy;
-    text-decoration: none;
-    font-size: 20px;
-}
 #logo{
     margin: 0px 262px;
-}
-.footer{
-    background-color: turquoise;
-    max-width: calc(1024px + 16px);
-    margin: 0 auto;
-    color: navy;
-    text-align: right;
-    height: 18px;
-}
-.footer a{
-    text-decoration: none;
-    color: navy;
 }
 .erdekesseg{
     padding: 8px;
@@ -75,7 +67,7 @@ table{
     float: right;
     margin: 0px 20px;
     transform:rotate(5deg)
-
+    
 }
 .erdekesseg p {
     text-align: justify;
@@ -88,7 +80,7 @@ table{
 .képek{
     float: right;
     margin: 0;
-
+    
 }
 #versenyek{
     background-color: white;
@@ -96,3 +88,23 @@ table{
 .erdekesseg h2{
     color: black;
 }
+#versenyek{
+    max-width: 500px;
+    border: solid 2px turquoise ;
+    
+}
+.cím{
+    margin: 30px auto;
+}
+.footer{
+    background-color: turquoise;
+    max-width: calc(1024px + 16px);
+        margin: 0 auto;
+        color: navy;
+        text-align: right;
+        height: 18px;
+    }
+    .footer a{
+        text-decoration: none;
+        color: navy;
+    }
