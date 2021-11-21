@@ -115,4 +115,6 @@ table{
         text-decoration: none;
         color:black;
     }
-    
+    a{
+        color: white;
+    }
