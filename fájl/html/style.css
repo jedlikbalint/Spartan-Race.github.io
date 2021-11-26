@@ -59,7 +59,8 @@ table{
     margin: 0px 5px
 }
 #logo{
-    margin: 0px 262px;
+    margin: 0px 430px;
+    margin-bottom: 140px;
 }
 .erdekesseg{
     padding: 8px;
@@ -79,10 +80,10 @@ table{
     border: none;
     background-color: turquoise;
 }
-.képek{
+.képek img{
     float: right;
-    margin: 0;
-    
+    height: 400px;
+    margin-right: 10px;
 }
 #versenyek{
     background-color: white;
@@ -100,7 +101,7 @@ table{
 }
 .footer{
     background-color: turquoise;
-       padding:3px ;
+       padding:0px ;
         color: navy;
         text-align: right;
         height: 20px;
@@ -122,3 +123,20 @@ table{
     a{
         color: white;
     }
+   #konyv{
+       margin-bottom: 200px;
+   } 
+   #bekuldes{
+       margin-bottom: 100px;
+   }
+   #contakt{
+       margin-left:500px ;
+       margin-top: 80px;
+   }
+   #kontaktkép{
+       height: 100px;
+   }
+   #mversenyek{
+       margin-bottom: 300px;
+   }
+   
