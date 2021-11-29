@@ -3,6 +3,9 @@
     background-color: rgb(39, 38, 38);
     padding: 8px;
     text-align: left;
+    min-height: 800px;
+    margin-bottom: 0;
+    
 }
 .menu{
     border: solid black 1px;
@@ -59,7 +62,7 @@ table{
     margin: 0px 5px
 }
 #logo{
-    margin: 0px 430px;
+    margin: 0px 680px;
     margin-bottom: 140px;
 }
 .erdekesseg{
@@ -101,11 +104,11 @@ table{
 }
 .footer{
     background-color: turquoise;
-       padding:0px ;
+       margin-top: 0;
         color: navy;
         text-align: right;
         height: 20px;
-        margin-top: 50px;
+        
     }
     .footer a{
         text-decoration: none;

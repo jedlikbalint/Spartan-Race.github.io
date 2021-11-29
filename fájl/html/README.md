@@ -1,1 +1,1 @@
-# Spartan-Race.github.io
+# Spartan-Race
